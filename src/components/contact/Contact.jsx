@@ -34,7 +34,12 @@ const Contact = ({ refA }) => {
           Are you in need of a landing page, a complex app, or perhaps a new
           developer to join your company? Let's work together!
         </p>
-        <button className="header-btn">Say Hello</button>
+        <button
+          className="header-btn"
+          onClick={() => (window.location = "mailto:yourmail@domain.com")}
+        >
+          Say Hello
+        </button>
         <div className="icons">
           {icons.map((item, index) => {
             return (
