@@ -5,12 +5,18 @@ import { FaLinkedin, FaInstagram, FaWhatsapp, FaGithub } from "react-icons/fa"
 
 const Contact = ({ refA }) => {
   const icons = [
-    { icon: <FaLinkedin />, link: "" },
+    {
+      icon: <FaLinkedin />,
+      link: "https://www.linkedin.com/in/guifeelipedev/",
+    },
     {
       icon: <FaInstagram />,
       link: "https://www.instagram.com/gui.feelipe/",
     },
-    { icon: <FaWhatsapp />, link: "" },
+    {
+      icon: <FaWhatsapp />,
+      link: "https://api.whatsapp.com/send?phone=5566992088625",
+    },
     { icon: <FaGithub />, link: "https://github.com/GuiFeelipeDev" },
   ]
   return (
