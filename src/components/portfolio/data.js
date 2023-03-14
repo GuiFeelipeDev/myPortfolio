@@ -16,11 +16,11 @@ export const myWorks = [
   {
     title: "LeagueQuiz",
     paragraphs: [
-      "This is a Website made with League of Legends API, React.JS and JavaScript.",
+      "This is a desktop Website made with League of Legends API, React.JS and JavaScript.",
       "The main idea is train UI, React and API uses.",
       "The app shows you a random champion every time that page got refreshed, show the champions with some filters and has a Quiz dynamically generated.",
     ],
-    link: "",
+    link: "https://league-quiz-drab.vercel.app/",
     img: leagueQuiz,
   },
   {
